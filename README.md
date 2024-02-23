@@ -28,13 +28,13 @@ Devido à amplitude do programa, era necessário criar uma ferramenta de busca d
 
 * Copiamos a tabela dinâmica e colamos somente os valores abaixo.
 
-* Com a função SE, substituímos os valores pelos nomes dos cursos;
+* Com a função SE, substituímos os valores "1" pelos nomes dos cursos;
   > =SE(B5=1,$A5,"")
-* Após, unimos todos os valores correspondentes à unidade em uma célula, com as funções CONCAT e UNIRTEXTO;
+* Após, unimos todos os valores correspondentes à Unidade de Ensino em uma célula, com as funções CONCAT e UNIRTEXTO.
   > =CONCAT(UNIRTEXTO("; ",,B72:B135),".")
-* Nomeamos a tabela com os textos reunidos como "uniaotexto";
+* Nomeamos a tabela com os textos reunidos como "uniaotexto".
 
-* Por último, utilizamos a função PROCH para localizar o resultado correspondente à unidade e fazer referência na planilha (BASE MAPA). 
+* Por último, utilizamos a função PROCH para localizar o resultado correspondente à Unidade de Ensino e fazer referência na planilha BASE MAPA. 
   > =PROCH(A3,uniaotexto,67,0)
   
 **(III). Endereço:**
