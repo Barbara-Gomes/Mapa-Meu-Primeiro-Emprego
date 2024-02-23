@@ -1,5 +1,6 @@
 # :globe_with_meridians: [Mapa de Unidades de Ensino [Qualifica-SP | Meu Primeiro Emprego]](https://www.google.com/maps/d/viewer?mid=12RUAzUv6WmHTARlDRou9O-hRUbQZXlw&ll=-22.48585463669992%2C-48.19047089999999&z=7)
-
+<div align="justify">
+  
 ## Qualifica-SP | Meu Primeiro Emprego
 O Meu Primeiro Emprego é um programa de qualificação profissional gratuito, destinado a jovens entre 16 e 24 anos com Ensino Fundamental Completo. Uma iniciativa do Governo do Estado de São Paulo para impulsionar este público a alcançar sua primeira oportunidade no mercado de trabalho. Os cursos acontecem em instituições técnicas públicas e privadas de todo o estado, alcançando todas as Regiões Administrativas de São Paulo.
 
@@ -20,7 +21,7 @@ Devido à amplitude do programa, era necessário criar uma ferramenta de busca d
 * Copiamos a coluna com os nomes das unidades em uma nova planilha (BASE MAPA) e excluímos as duplicatas.
 
 **(II) Nome e horário dos cursos ofertados na unidade:**
-> Era necessário unir todos os cursos ofertados na unidade, junto aos seus turnos, em uma só célula. Os dados estavam separados em 3 colunas: (I) Nome da Unidade, (II) Nome do curso e (III) Turno.
+> Era necessário unir todos os cursos ofertados na unidade, junto aos seus turnos, em uma só célula. Os dados estavam separados em 3 colunas: (i) Nome da Unidade, (ii) Nome do curso e (iii) Turno.
 * Reunimos nome do curso e o turno em uma célula, utilizando a função CONCAT.
   > =CONCAT(F5, " -", " Período: ",G5)
 * Geramos uma tabela dinâmica em nova planilha (UNIÃO TEXTO), indicando o resultado do nome + turno nas linhas e nos valores (contagem); e, nas colunas, o nome das unidades.
@@ -36,8 +37,9 @@ Devido à amplitude do programa, era necessário criar uma ferramenta de busca d
 * Por último, utilizamos a função PROCH para localizar o resultado correspondente à unidade e fazer referência na planilha (BASE MAPA).
   > =PROCH(A3,uniaotexto,67,0)
   
-III. Endereço:
+**(III). Endereço:**
 * O endereço estava separado em 4 colunas: Rua, Número, Bairro e Cidade. Por isso, utilizamos em uma só fórmula as funções CONCAT e UNIRTEXTO, para simplificar o processo de formação da frase, introduzindo a pontuação necessária simultaneamente à união do texto. 
  > =CONCAT(UNIRTEXTO(", ",,I5,K5),". ",UNIRTEXTO(", ",,J5,L5),".")
 
 **:white_check_mark: Copiamos apenas os valores de BASE MAPA em uma nova pasta de trabalho, e realizamos o upload da base no Google Maps.**
+<div>
