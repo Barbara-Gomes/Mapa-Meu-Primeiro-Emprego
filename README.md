@@ -7,7 +7,7 @@ O Meu Primeiro Emprego é um programa de qualificação profissional gratuito, d
 Devido à amplitude do programa, era necessário criar uma ferramenta de busca das unidades, de modo que os candidatos pudessem visualizar quais estavam mais próximas de seu endereço. A direção técnica do programa sugeriu a utilização da ferramenta Google Maps, para que o mapa interativo pudesse ser armazenado em uma pasta pública, que continha os demais materiais sobre o programa.
 
 ## Objetivo
-• Manipular dados extraídos via SGCP da base de dados da Coordenadoria de Ensino Técnico e Profissionalizante (CETTPRO);
-• Criar um arquivo .xlsx com os dados formatados, para gerar o mapa através do Google Maps.
+* Manipular dados extraídos via SGCP da base de dados da Coordenadoria de Ensino Técnico, Tecnológico e Profissionalizante (CETTPRO).
+* Criar um arquivo .xlsx com os dados formatados e realizar o upload no Google Maps.
 
 ## 📝 Solução
