@@ -34,7 +34,7 @@ Devido à amplitude do programa, era necessário criar uma ferramenta de busca d
   > =CONCAT(UNIRTEXTO("; ",,B72:B135),".")
 * Nomeamos a tabela com os textos reunidos como "uniaotexto";
 
-* Por último, utilizamos a função PROCH para localizar o resultado correspondente à unidade e fazer referência na planilha (BASE MAPA).
+* Por último, utilizamos a função PROCH para localizar o resultado correspondente à unidade e fazer referência na planilha (BASE MAPA). 
   > =PROCH(A3,uniaotexto,67,0)
   
 **(III). Endereço:**
@@ -42,4 +42,9 @@ Devido à amplitude do programa, era necessário criar uma ferramenta de busca d
  > =CONCAT(UNIRTEXTO(", ",,I5,K5),". ",UNIRTEXTO(", ",,J5,L5),".")
 
 **:white_check_mark: Copiamos apenas os valores de BASE MAPA em uma nova pasta de trabalho, e realizamos o upload da base no Google Maps.**
+<div>
+  
+<div align="right">
+
+  [Acesse aqui](https://www.google.com/maps/d/viewer?mid=12RUAzUv6WmHTARlDRou9O-hRUbQZXlw&ll=-22.48585463669992%2C-48.19047089999999&z=7)
 <div>
