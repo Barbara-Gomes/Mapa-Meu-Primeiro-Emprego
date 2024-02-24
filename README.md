@@ -5,15 +5,15 @@
 O Meu Primeiro Emprego é um programa de qualificação profissional gratuito, destinado a jovens entre 16 e 24 anos com Ensino Fundamental Completo. Uma iniciativa do Governo do Estado de São Paulo para impulsionar este público a alcançar sua primeira oportunidade no mercado de trabalho. Os cursos acontecem em instituições técnicas públicas e privadas de todo o estado, alcançando todas as Regiões Administrativas de São Paulo.
 
 ## Necessidades do Projeto
-Devido à amplitude do programa, era necessário criar uma ferramenta de busca das unidades, de modo que os candidatos pudessem visualizar quais estavam mais próximas de seu endereço. A direção técnica do programa decidiu utilizar da ferramenta Google Maps, para que o mapa interativo pudesse ser armazenado em uma pasta pública, junto aos demais materiais sobre o programa.
+Devido à amplitude do programa, era necessário criar uma ferramenta de busca das unidades, de modo que os candidatos pudessem visualizar quais estavam mais próximas de seu endereço. A direção técnica do programa decidiu utilizar a ferramenta Google Maps, para que o mapa interativo pudesse ser armazenado em uma pasta pública, junto aos demais materiais sobre o programa.
 
-## Objetivo
+## Objetivos
 * Manipular dados extraídos via SGCP da base de dados da Coordenadoria de Ensino Técnico, Tecnológico e Profissionalizante (CETTPRO).
 * Criar um arquivo .xlsx com os dados formatados e realizar o upload no Google Maps.
 
 ## 📝 Solução
 **:white_check_mark: Conferimos os dados, verificando possíveis lacunas e erros.**
-* Nessa fase, optamos por localizar e substituir as células que indicavam o turno das turmas, que estavam apenas indicadas pela primeira letras Manhã (M); Tarde (T); Noite (N); Integral (I).
+* Nessa fase, optamos por localizar e substituir as células que indicavam o turno das turmas, que estavam apenas indicadas pela primeira letra Manhã (M); Tarde (T); Noite (N); Integral (I).
 
 **:white_check_mark: Criamos uma tabela (BASE MAPA) com três colunas, indicando (I) Nome da Unidade; (II) Nome e horário dos cursos ofertados na Unidade; (III) Endereço.**
 
